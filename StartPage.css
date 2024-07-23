@@ -1,0 +1,95 @@
+body {
+  margin: 0;
+  font-family: 'Arial, sans-serif';
+  background-color: #f8f8f8;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+}
+
+header {
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.logo img {
+  width: 98.65px;
+  height: 92.39px;
+  margin-right: 10px;
+}
+
+.logo span {
+  margin-left: 10px;
+  font-size: 2em;
+  font-weight: bold;
+  color: #3E6606;
+  vertical-align: middle;
+}
+
+main {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+  padding: 20px;
+}
+
+.page {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.page-text {
+  padding: 20px;
+}
+
+.page-text h1 {
+  font-size: 3em;
+  font-weight: bold;
+  color: #CFFFC8;
+  margin-bottom: 20px;
+}
+
+.page-text p {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #29af83;
+  margin-bottom: 20px;
+}
+
+.start-service {
+  padding: 10px 20px;
+  font-size: 1em;
+  font-weight: bold;
+  color: #000000;
+  background-color: #CFFFC8;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.start-service:hover {
+  background-color: #CFFFC8;
+}
+
+.hero-image img {
+  width: 400px;
+  height: 400px;
+  background-image: 'living-room.png';
+  background-size: cover;
+}
